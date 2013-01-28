@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  
+     xmlns:h="http://java.sun.com/jsf/html" 
+     xmlns:f="http://java.sun.com/jsf/core" 
+     xmlns:p="http://primefaces.org/ui">  
+   
+ <head><title>Chapter 2 - Sample 2 : Media Query</title>
+ <!--  the first stylesheet is the default which will get overidden if other media queries are true -->
+ 	<link rel="stylesheet" href="sample02-def.css"/>
+ 	<link rel="stylesheet" media="screen and (max-width: 960px)" href="sample02-a.css"/>
+ 	<link rel="stylesheet" media="screen and (max-width: 550px)" href="sample02-b.css"/>
+ </head>  
+ <body>  
+ The background color should change depending on the size of the viewport. All media 
+ queries are actually specified in "link" tags in the head section which controls which 
+ css file to load. 
+ <br/>
+ 
+ Go ahead and try resizing ...... 
+</body>    
+</html> 

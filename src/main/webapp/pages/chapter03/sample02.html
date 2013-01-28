@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!--  this meta line will force mobile browser not to shrink the page by instructing the 
+	browser to scale the page to twice the size of the page (undoing the shrinking) -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<title>And the winner isn't -fluid design with columnal css</title>
+	<link href="../../css/columnal-0.85/columnal.css" rel="stylesheet" type="text/css"/>
+	<link href="../../css/columnal-0.85/custom.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Even though this is a fixed width design, and to force mobile browser to show the page as 
+it was designed without shrinking we use the meta line above. -->
+<div id="wrapper" class="container">
+	<!--  the header and navigation -->
+	<div id="header" class="row">
+		<div id="logo" class="col_12">And the winner is<span>n't...</span></div>
+		<div id="navigation" class="row">
+			<ul>
+				<li><a href="#">why?</a></li>
+				<li><a href="#">synopsis</a></li>
+				<li><a href="#">still/photos</a></li>
+				<li><a href="#">videos/clips</a></li>
+				<li><a href="#">quotes</a></li>
+				<li><a href="#">quiz</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<!--  the content must come first. But for large displays, the css will make this float right-->
+		<div id="content" class="col_9 alpha omega">
+			<img class="oscarMain col_3" src="../../img/oscar.png" alt="atwi_oscar">
+			<div class="col_6 omega">
+				<h1>Every year <span>when I watch the Oscars I'm annoyed…</</span></h1>
+				<p>that films like <b>King Kong</b>, <b>Moulin Rouge</b> and <b>Munich</b> get the statue whilst the <em>real</em> cinematic heroes lose out. Not very Hollywood is it?</p>
+				<p><i>We’re here to put things right.</i></p>
+				<a href="#">these should have won &raquo;</a>
+			</div>
+		</div>
+		<!--  the sidebar -->
+		<div id="sidebar" class="col_3">
+			<div class="sideBlock unSung">
+				<h4>Unsung heroes...</h4>
+				<a href="#"><img src="../../img/midnightRun.jpg" alt="Midnight Run" /></a>
+				<a href="#"><img src="../../img/wyattEarp.jpg" alt="Wyatt Earp" /></a>
+			</div>
+			<div class="sideBlock overHyped">
+				<h4>Overhyped nonsense...</h4>
+				<a href="#"><img src="../../img/moulinRouge.jpg" alt="Moulin Rouge" /></a>
+				<a href="#"><img src="../../img/kingKong.jpg" alt="King Kong" /></a>
+			</div>
+		</div>
+	</div>
+	
+	<!--  the footer -->
+	<div id="footer" class="row">
+		<p>NOTE: OUR OPINION IS ABSOLUTELY CORRECT. YOU ARE WRONG, EVEN IF YOU THINK YOU ARE RIGHT. THAT’S A FACT. DEAL WITH IT.</p>
+	</div>
+</div>
+
+</body>
+</html>

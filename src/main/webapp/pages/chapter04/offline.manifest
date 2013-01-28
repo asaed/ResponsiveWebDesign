@@ -1,0 +1,20 @@
+CACHE MANIFEST
+#v1
+
+CACHE:
+sample02.html
+sample01.css
+../../img/atwiNavBg.png
+../../img/kingKong.jpg
+../../img/midnightRun.jpg
+../../img/moulinRouge.jpg
+../../img/oscar.png
+../../img/wyattEarp.jpg
+../../img/buntingFW.png
+../../img/buntingFWinvert.png
+
+NETWORK:
+*
+
+FALLBACK:
+/ /offline.html
