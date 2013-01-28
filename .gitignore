@@ -34,3 +34,4 @@ target/**
 .buildpath
 
 # This project specifc files
+.svn/**
